@@ -11,11 +11,21 @@ public class SimpleStatistics {
       int num4 = scnr.nextInt();
       
       double product = num1 * num2 * num3 * num4;
-      double average = (num1 + num2 + num3 + num4) / 4;
+      double average = (num1 + num2 + num3 + num4) / 4.0;
       
       System.out.println(product);
       System.out.println(average);
 
+      double averageFloat = (double) num1 * num2 * num3 * num4;
+      double productFloat = (double)(num1 + num2 + num3 + num4) / 4;
+
+      System.out.printf("%.0f %.0f", product, average);
+      System.out.println();
+      System.out.printf("%.3f", averageFloat);
+      System.out.print(" ");
+      System.out.printf("%.3f", productFloat);
+      System.out.println();
+      
       scnr.close();
    }
 }
