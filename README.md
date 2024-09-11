@@ -20,7 +20,7 @@ Using terminal commands:
 
 - Clone or download the repository: 
 ```Java 
-- git clone https://github.com/your-username/SimpleStatistics.git 
+- git clone https://github.com/EMK2473/SimpleStatistics.git 
 ```
 
 - Navigate to the project directory: 
